@@ -1,0 +1,26 @@
+
+.rendered_html code {
+/* 	font-family: "Courier 10 Pitch", Courier, "Courier New", Menlo, monospace; */
+	background-color: #f1f1f1;
+	border: 1px solid #e3e3e3;
+	border-radius: 3px;
+	padding: 0 2px;
+	white-space: nowrap;
+}
+
+.rendered_html pre code {
+	white-space: pre-wrap;
+	border: none;
+	padding: 0 2px;
+	color: inherit;
+}
+
+.rendered_html pre {
+	background-color: #f1f1f1;
+	border: 1px solid #e3e3e3;
+	border-radius: 3px;
+}
+
+div.text_cell {
+    max-width: 105ex; /* instead of 100%, */
+}
